@@ -1,0 +1,93 @@
+/*GENERAL CSS*/
+
+
+
+body{
+
+	font-size: 16px;
+
+	margin: 0px;
+
+}
+	
+
+#nav{
+
+	background-color: #44929b;	
+
+}
+
+#nav-list{
+
+	list-style-type: none;
+	text-align: center;	
+	padding: 0px;	
+	margin: 0px;
+	word-spacing: 15px;
+
+}
+
+
+
+#nav-list li{
+	
+	display:inline-block;
+	margin-top: 0px;
+	text-transform: uppercase;
+	
+
+}
+
+
+li a{
+
+	display: block;
+
+
+}
+
+
+
+a{
+
+	font-family: Lucida Sans;
+
+	padding: 10px;
+
+	text-decoration: none;
+
+	color: Black;
+	transition: background-color .1	s	
+
+}
+a:hover{
+	background-color: #69bcd5;
+}
+
+
+#main{
+
+	background-image: linear-gradient(to left, rgba(26, 41, 128, 0.2), rgba(38, 208, 206, 0.1)), url(sample.jpg);
+
+	background-size: cover;
+
+	background-position: center center;
+
+	padding-top: 500px;
+
+	padding-bottom: 500px;
+
+}
+
+
+
+#name{
+
+
+   position: absolute;
+   color: white;
+   left: 50px;
+   top: 300px;
+   font-family: Lucida Sans;
+
+}
